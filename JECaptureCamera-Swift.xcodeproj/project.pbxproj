@@ -13,6 +13,29 @@
 		84E0DB511B0C5E7D0075202B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E0DB501B0C5E7D0075202B /* Images.xcassets */; };
 		84E0DB541B0C5E7D0075202B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E0DB521B0C5E7D0075202B /* LaunchScreen.xib */; };
 		84E0DB601B0C5E7D0075202B /* JECaptureCamera_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0DB5F1B0C5E7D0075202B /* JECaptureCamera_SwiftTests.swift */; };
+		84E0DB6B1B0C5E8D0075202B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E0DB691B0C5E8D0075202B /* AssetsLibrary.framework */; };
+		84E0DB6C1B0C5E8D0075202B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E0DB6A1B0C5E8D0075202B /* AVFoundation.framework */; };
+		84E0DB961B0C5EEE0075202B /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0DB741B0C5EEE0075202B /* ALAssetsLibrary+CustomPhotoAlbum.m */; };
+		84E0DB971B0C5EEE0075202B /* JESPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0DB751B0C5EEE0075202B /* JESPViewController.swift */; };
+		84E0DB981B0C5EEE0075202B /* MLImageCrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0DB781B0C5EEE0075202B /* MLImageCrop.m */; };
+		84E0DB991B0C5EEE0075202B /* flashing_auto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E0DB7C1B0C5EEE0075202B /* flashing_auto@2x.png */; };
+		84E0DB9A1B0C5EEE0075202B /* flashing_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E0DB7D1B0C5EEE0075202B /* flashing_off@2x.png */; };
+		84E0DB9B1B0C5EEE0075202B /* flashing_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E0DB7E1B0C5EEE0075202B /* flashing_on@2x.png */; };
+		84E0DB9C1B0C5EEE0075202B /* photo_close_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E0DB7F1B0C5EEE0075202B /* photo_close_icon@2x.png */; };
+		84E0DB9D1B0C5EEE0075202B /* shot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E0DB801B0C5EEE0075202B /* shot@2x.png */; };
+		84E0DB9E1B0C5EEE0075202B /* shot_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E0DB811B0C5EEE0075202B /* shot_h@2x.png */; };
+		84E0DB9F1B0C5EEE0075202B /* switch_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E0DB821B0C5EEE0075202B /* switch_camera@2x.png */; };
+		84E0DBA01B0C5EEE0075202B /* take_photo_picture_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E0DB831B0C5EEE0075202B /* take_photo_picture_default@2x.png */; };
+		84E0DBA11B0C5EEE0075202B /* touch_focus.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E0DB841B0C5EEE0075202B /* touch_focus.png */; };
+		84E0DBA21B0C5EEE0075202B /* touch_focus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E0DB851B0C5EEE0075202B /* touch_focus@2x.png */; };
+		84E0DBA31B0C5EEE0075202B /* touch_focus_x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E0DB861B0C5EEE0075202B /* touch_focus_x.png */; };
+		84E0DBA41B0C5EEE0075202B /* touch_focus_x@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E0DB871B0C5EEE0075202B /* touch_focus_x@2x.png */; };
+		84E0DBA51B0C5EEE0075202B /* SCCaptureCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0DB891B0C5EEE0075202B /* SCCaptureCameraController.m */; };
+		84E0DBA61B0C5EEE0075202B /* SCCaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0DB8B1B0C5EEE0075202B /* SCCaptureSessionManager.m */; };
+		84E0DBA71B0C5EEE0075202B /* SCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0DB8D1B0C5EEE0075202B /* SCNavigationController.m */; };
+		84E0DBA81B0C5EEE0075202B /* SCSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0DB8F1B0C5EEE0075202B /* SCSlider.m */; };
+		84E0DBA91B0C5EEE0075202B /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0DB911B0C5EEE0075202B /* UIImage+Resize.m */; };
+		84E0DBAA1B0C5EEE0075202B /* SCCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0DB941B0C5EEE0075202B /* SCCommon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +59,39 @@
 		84E0DB591B0C5E7D0075202B /* JECaptureCamera-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JECaptureCamera-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E0DB5E1B0C5E7D0075202B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84E0DB5F1B0C5E7D0075202B /* JECaptureCamera_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JECaptureCamera_SwiftTests.swift; sourceTree = "<group>"; };
+		84E0DB691B0C5E8D0075202B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		84E0DB6A1B0C5E8D0075202B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		84E0DB6D1B0C5EE50075202B /* JECaptureCamera-Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JECaptureCamera-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		84E0DB731B0C5EEE0075202B /* ALAssetsLibrary+CustomPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+CustomPhotoAlbum.h"; sourceTree = "<group>"; };
+		84E0DB741B0C5EEE0075202B /* ALAssetsLibrary+CustomPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+CustomPhotoAlbum.m"; sourceTree = "<group>"; };
+		84E0DB751B0C5EEE0075202B /* JESPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JESPViewController.swift; sourceTree = "<group>"; };
+		84E0DB771B0C5EEE0075202B /* MLImageCrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLImageCrop.h; sourceTree = "<group>"; };
+		84E0DB781B0C5EEE0075202B /* MLImageCrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLImageCrop.m; sourceTree = "<group>"; };
+		84E0DB7C1B0C5EEE0075202B /* flashing_auto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flashing_auto@2x.png"; sourceTree = "<group>"; };
+		84E0DB7D1B0C5EEE0075202B /* flashing_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flashing_off@2x.png"; sourceTree = "<group>"; };
+		84E0DB7E1B0C5EEE0075202B /* flashing_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flashing_on@2x.png"; sourceTree = "<group>"; };
+		84E0DB7F1B0C5EEE0075202B /* photo_close_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_close_icon@2x.png"; sourceTree = "<group>"; };
+		84E0DB801B0C5EEE0075202B /* shot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shot@2x.png"; sourceTree = "<group>"; };
+		84E0DB811B0C5EEE0075202B /* shot_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shot_h@2x.png"; sourceTree = "<group>"; };
+		84E0DB821B0C5EEE0075202B /* switch_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch_camera@2x.png"; sourceTree = "<group>"; };
+		84E0DB831B0C5EEE0075202B /* take_photo_picture_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "take_photo_picture_default@2x.png"; sourceTree = "<group>"; };
+		84E0DB841B0C5EEE0075202B /* touch_focus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = touch_focus.png; sourceTree = "<group>"; };
+		84E0DB851B0C5EEE0075202B /* touch_focus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "touch_focus@2x.png"; sourceTree = "<group>"; };
+		84E0DB861B0C5EEE0075202B /* touch_focus_x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = touch_focus_x.png; sourceTree = "<group>"; };
+		84E0DB871B0C5EEE0075202B /* touch_focus_x@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "touch_focus_x@2x.png"; sourceTree = "<group>"; };
+		84E0DB881B0C5EEE0075202B /* SCCaptureCameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCaptureCameraController.h; sourceTree = "<group>"; };
+		84E0DB891B0C5EEE0075202B /* SCCaptureCameraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCCaptureCameraController.m; sourceTree = "<group>"; };
+		84E0DB8A1B0C5EEE0075202B /* SCCaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCaptureSessionManager.h; sourceTree = "<group>"; };
+		84E0DB8B1B0C5EEE0075202B /* SCCaptureSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCCaptureSessionManager.m; sourceTree = "<group>"; };
+		84E0DB8C1B0C5EEE0075202B /* SCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNavigationController.h; sourceTree = "<group>"; };
+		84E0DB8D1B0C5EEE0075202B /* SCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNavigationController.m; sourceTree = "<group>"; };
+		84E0DB8E1B0C5EEE0075202B /* SCSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSlider.h; sourceTree = "<group>"; };
+		84E0DB8F1B0C5EEE0075202B /* SCSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSlider.m; sourceTree = "<group>"; };
+		84E0DB901B0C5EEE0075202B /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		84E0DB911B0C5EEE0075202B /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		84E0DB931B0C5EEE0075202B /* SCCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCommon.h; sourceTree = "<group>"; };
+		84E0DB941B0C5EEE0075202B /* SCCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCCommon.m; sourceTree = "<group>"; };
+		84E0DB951B0C5EEE0075202B /* SCDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCDefines.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +99,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E0DB6C1B0C5E8D0075202B /* AVFoundation.framework in Frameworks */,
+				84E0DB6B1B0C5E8D0075202B /* AssetsLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +140,9 @@
 				84E0DB4D1B0C5E7D0075202B /* Main.storyboard */,
 				84E0DB501B0C5E7D0075202B /* Images.xcassets */,
 				84E0DB521B0C5E7D0075202B /* LaunchScreen.xib */,
+				84E0DB711B0C5EEE0075202B /* SCCaptureCamera */,
 				84E0DB471B0C5E7D0075202B /* Supporting Files */,
+				84E0DB6D1B0C5EE50075202B /* JECaptureCamera-Swift-Bridging-Header.h */,
 			);
 			path = "JECaptureCamera-Swift";
 			sourceTree = "<group>";
@@ -90,6 +150,8 @@
 		84E0DB471B0C5E7D0075202B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84E0DB691B0C5E8D0075202B /* AssetsLibrary.framework */,
+				84E0DB6A1B0C5E8D0075202B /* AVFoundation.framework */,
 				84E0DB481B0C5E7D0075202B /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +172,91 @@
 				84E0DB5E1B0C5E7D0075202B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84E0DB711B0C5EEE0075202B /* SCCaptureCamera */ = {
+			isa = PBXGroup;
+			children = (
+				84E0DB721B0C5EEE0075202B /* ALAssetsLibrary-CustomPhotoAlbum */,
+				84E0DB751B0C5EEE0075202B /* JESPViewController.swift */,
+				84E0DB761B0C5EEE0075202B /* MLImageCrop */,
+				84E0DB791B0C5EEE0075202B /* SCCaptureCamera */,
+				84E0DB921B0C5EEE0075202B /* SCCommon */,
+			);
+			path = SCCaptureCamera;
+			sourceTree = "<group>";
+		};
+		84E0DB721B0C5EEE0075202B /* ALAssetsLibrary-CustomPhotoAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				84E0DB731B0C5EEE0075202B /* ALAssetsLibrary+CustomPhotoAlbum.h */,
+				84E0DB741B0C5EEE0075202B /* ALAssetsLibrary+CustomPhotoAlbum.m */,
+			);
+			path = "ALAssetsLibrary-CustomPhotoAlbum";
+			sourceTree = "<group>";
+		};
+		84E0DB761B0C5EEE0075202B /* MLImageCrop */ = {
+			isa = PBXGroup;
+			children = (
+				84E0DB771B0C5EEE0075202B /* MLImageCrop.h */,
+				84E0DB781B0C5EEE0075202B /* MLImageCrop.m */,
+			);
+			path = MLImageCrop;
+			sourceTree = "<group>";
+		};
+		84E0DB791B0C5EEE0075202B /* SCCaptureCamera */ = {
+			isa = PBXGroup;
+			children = (
+				84E0DB7A1B0C5EEE0075202B /* images */,
+				84E0DB881B0C5EEE0075202B /* SCCaptureCameraController.h */,
+				84E0DB891B0C5EEE0075202B /* SCCaptureCameraController.m */,
+				84E0DB8A1B0C5EEE0075202B /* SCCaptureSessionManager.h */,
+				84E0DB8B1B0C5EEE0075202B /* SCCaptureSessionManager.m */,
+				84E0DB8C1B0C5EEE0075202B /* SCNavigationController.h */,
+				84E0DB8D1B0C5EEE0075202B /* SCNavigationController.m */,
+				84E0DB8E1B0C5EEE0075202B /* SCSlider.h */,
+				84E0DB8F1B0C5EEE0075202B /* SCSlider.m */,
+				84E0DB901B0C5EEE0075202B /* UIImage+Resize.h */,
+				84E0DB911B0C5EEE0075202B /* UIImage+Resize.m */,
+			);
+			path = SCCaptureCamera;
+			sourceTree = "<group>";
+		};
+		84E0DB7A1B0C5EEE0075202B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				84E0DB7B1B0C5EEE0075202B /* SCCamera */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		84E0DB7B1B0C5EEE0075202B /* SCCamera */ = {
+			isa = PBXGroup;
+			children = (
+				84E0DB7C1B0C5EEE0075202B /* flashing_auto@2x.png */,
+				84E0DB7D1B0C5EEE0075202B /* flashing_off@2x.png */,
+				84E0DB7E1B0C5EEE0075202B /* flashing_on@2x.png */,
+				84E0DB7F1B0C5EEE0075202B /* photo_close_icon@2x.png */,
+				84E0DB801B0C5EEE0075202B /* shot@2x.png */,
+				84E0DB811B0C5EEE0075202B /* shot_h@2x.png */,
+				84E0DB821B0C5EEE0075202B /* switch_camera@2x.png */,
+				84E0DB831B0C5EEE0075202B /* take_photo_picture_default@2x.png */,
+				84E0DB841B0C5EEE0075202B /* touch_focus.png */,
+				84E0DB851B0C5EEE0075202B /* touch_focus@2x.png */,
+				84E0DB861B0C5EEE0075202B /* touch_focus_x.png */,
+				84E0DB871B0C5EEE0075202B /* touch_focus_x@2x.png */,
+			);
+			path = SCCamera;
+			sourceTree = "<group>";
+		};
+		84E0DB921B0C5EEE0075202B /* SCCommon */ = {
+			isa = PBXGroup;
+			children = (
+				84E0DB931B0C5EEE0075202B /* SCCommon.h */,
+				84E0DB941B0C5EEE0075202B /* SCCommon.m */,
+				84E0DB951B0C5EEE0075202B /* SCDefines.h */,
+			);
+			path = SCCommon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +340,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				84E0DB4F1B0C5E7D0075202B /* Main.storyboard in Resources */,
+				84E0DB9C1B0C5EEE0075202B /* photo_close_icon@2x.png in Resources */,
+				84E0DB9A1B0C5EEE0075202B /* flashing_off@2x.png in Resources */,
+				84E0DBA41B0C5EEE0075202B /* touch_focus_x@2x.png in Resources */,
+				84E0DB991B0C5EEE0075202B /* flashing_auto@2x.png in Resources */,
+				84E0DBA11B0C5EEE0075202B /* touch_focus.png in Resources */,
+				84E0DB9E1B0C5EEE0075202B /* shot_h@2x.png in Resources */,
+				84E0DB9F1B0C5EEE0075202B /* switch_camera@2x.png in Resources */,
+				84E0DBA21B0C5EEE0075202B /* touch_focus@2x.png in Resources */,
+				84E0DB9B1B0C5EEE0075202B /* flashing_on@2x.png in Resources */,
 				84E0DB541B0C5E7D0075202B /* LaunchScreen.xib in Resources */,
+				84E0DBA01B0C5EEE0075202B /* take_photo_picture_default@2x.png in Resources */,
+				84E0DBA31B0C5EEE0075202B /* touch_focus_x.png in Resources */,
+				84E0DB9D1B0C5EEE0075202B /* shot@2x.png in Resources */,
 				84E0DB511B0C5E7D0075202B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +371,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E0DB971B0C5EEE0075202B /* JESPViewController.swift in Sources */,
 				84E0DB4C1B0C5E7D0075202B /* ViewController.swift in Sources */,
+				84E0DBA81B0C5EEE0075202B /* SCSlider.m in Sources */,
+				84E0DBA61B0C5EEE0075202B /* SCCaptureSessionManager.m in Sources */,
+				84E0DBAA1B0C5EEE0075202B /* SCCommon.m in Sources */,
 				84E0DB4A1B0C5E7D0075202B /* AppDelegate.swift in Sources */,
+				84E0DB981B0C5EEE0075202B /* MLImageCrop.m in Sources */,
+				84E0DBA71B0C5EEE0075202B /* SCNavigationController.m in Sources */,
+				84E0DB961B0C5EEE0075202B /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
+				84E0DBA51B0C5EEE0075202B /* SCCaptureCameraController.m in Sources */,
+				84E0DBA91B0C5EEE0075202B /* UIImage+Resize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +508,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "JECaptureCamera-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JECaptureCamera-Swift/JECaptureCamera-Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +521,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "JECaptureCamera-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JECaptureCamera-Swift/JECaptureCamera-Swift-Bridging-Header.h";
 			};
 			name = Release;
 		};
