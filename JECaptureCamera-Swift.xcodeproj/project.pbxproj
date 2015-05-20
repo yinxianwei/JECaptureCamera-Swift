@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84E0DB4A1B0C5E7D0075202B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0DB491B0C5E7D0075202B /* AppDelegate.swift */; };
+		84E0DB4C1B0C5E7D0075202B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0DB4B1B0C5E7D0075202B /* ViewController.swift */; };
+		84E0DB4F1B0C5E7D0075202B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E0DB4D1B0C5E7D0075202B /* Main.storyboard */; };
+		84E0DB511B0C5E7D0075202B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E0DB501B0C5E7D0075202B /* Images.xcassets */; };
+		84E0DB541B0C5E7D0075202B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E0DB521B0C5E7D0075202B /* LaunchScreen.xib */; };
+		84E0DB601B0C5E7D0075202B /* JECaptureCamera_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0DB5F1B0C5E7D0075202B /* JECaptureCamera_SwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84E0DB5A1B0C5E7D0075202B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E0DB3C1B0C5E7C0075202B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E0DB431B0C5E7D0075202B;
+			remoteInfo = "JECaptureCamera-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84E0DB441B0C5E7D0075202B /* JECaptureCamera-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JECaptureCamera-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E0DB481B0C5E7D0075202B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E0DB491B0C5E7D0075202B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84E0DB4B1B0C5E7D0075202B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84E0DB4E1B0C5E7D0075202B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84E0DB501B0C5E7D0075202B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84E0DB531B0C5E7D0075202B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		84E0DB591B0C5E7D0075202B /* JECaptureCamera-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JECaptureCamera-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E0DB5E1B0C5E7D0075202B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E0DB5F1B0C5E7D0075202B /* JECaptureCamera_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JECaptureCamera_SwiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E0DB411B0C5E7D0075202B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E0DB561B0C5E7D0075202B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84E0DB3B1B0C5E7C0075202B = {
+			isa = PBXGroup;
+			children = (
+				84E0DB461B0C5E7D0075202B /* JECaptureCamera-Swift */,
+				84E0DB5C1B0C5E7D0075202B /* JECaptureCamera-SwiftTests */,
+				84E0DB451B0C5E7D0075202B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84E0DB451B0C5E7D0075202B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E0DB441B0C5E7D0075202B /* JECaptureCamera-Swift.app */,
+				84E0DB591B0C5E7D0075202B /* JECaptureCamera-SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E0DB461B0C5E7D0075202B /* JECaptureCamera-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				84E0DB491B0C5E7D0075202B /* AppDelegate.swift */,
+				84E0DB4B1B0C5E7D0075202B /* ViewController.swift */,
+				84E0DB4D1B0C5E7D0075202B /* Main.storyboard */,
+				84E0DB501B0C5E7D0075202B /* Images.xcassets */,
+				84E0DB521B0C5E7D0075202B /* LaunchScreen.xib */,
+				84E0DB471B0C5E7D0075202B /* Supporting Files */,
+			);
+			path = "JECaptureCamera-Swift";
+			sourceTree = "<group>";
+		};
+		84E0DB471B0C5E7D0075202B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84E0DB481B0C5E7D0075202B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84E0DB5C1B0C5E7D0075202B /* JECaptureCamera-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				84E0DB5F1B0C5E7D0075202B /* JECaptureCamera_SwiftTests.swift */,
+				84E0DB5D1B0C5E7D0075202B /* Supporting Files */,
+			);
+			path = "JECaptureCamera-SwiftTests";
+			sourceTree = "<group>";
+		};
+		84E0DB5D1B0C5E7D0075202B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84E0DB5E1B0C5E7D0075202B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84E0DB431B0C5E7D0075202B /* JECaptureCamera-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E0DB631B0C5E7D0075202B /* Build configuration list for PBXNativeTarget "JECaptureCamera-Swift" */;
+			buildPhases = (
+				84E0DB401B0C5E7D0075202B /* Sources */,
+				84E0DB411B0C5E7D0075202B /* Frameworks */,
+				84E0DB421B0C5E7D0075202B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JECaptureCamera-Swift";
+			productName = "JECaptureCamera-Swift";
+			productReference = 84E0DB441B0C5E7D0075202B /* JECaptureCamera-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84E0DB581B0C5E7D0075202B /* JECaptureCamera-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E0DB661B0C5E7D0075202B /* Build configuration list for PBXNativeTarget "JECaptureCamera-SwiftTests" */;
+			buildPhases = (
+				84E0DB551B0C5E7D0075202B /* Sources */,
+				84E0DB561B0C5E7D0075202B /* Frameworks */,
+				84E0DB571B0C5E7D0075202B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E0DB5B1B0C5E7D0075202B /* PBXTargetDependency */,
+			);
+			name = "JECaptureCamera-SwiftTests";
+			productName = "JECaptureCamera-SwiftTests";
+			productReference = 84E0DB591B0C5E7D0075202B /* JECaptureCamera-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84E0DB3C1B0C5E7C0075202B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "尹现伟";
+				TargetAttributes = {
+					84E0DB431B0C5E7D0075202B = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					84E0DB581B0C5E7D0075202B = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 84E0DB431B0C5E7D0075202B;
+					};
+				};
+			};
+			buildConfigurationList = 84E0DB3F1B0C5E7C0075202B /* Build configuration list for PBXProject "JECaptureCamera-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84E0DB3B1B0C5E7C0075202B;
+			productRefGroup = 84E0DB451B0C5E7D0075202B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84E0DB431B0C5E7D0075202B /* JECaptureCamera-Swift */,
+				84E0DB581B0C5E7D0075202B /* JECaptureCamera-SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E0DB421B0C5E7D0075202B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E0DB4F1B0C5E7D0075202B /* Main.storyboard in Resources */,
+				84E0DB541B0C5E7D0075202B /* LaunchScreen.xib in Resources */,
+				84E0DB511B0C5E7D0075202B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E0DB571B0C5E7D0075202B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E0DB401B0C5E7D0075202B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E0DB4C1B0C5E7D0075202B /* ViewController.swift in Sources */,
+				84E0DB4A1B0C5E7D0075202B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E0DB551B0C5E7D0075202B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E0DB601B0C5E7D0075202B /* JECaptureCamera_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84E0DB5B1B0C5E7D0075202B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E0DB431B0C5E7D0075202B /* JECaptureCamera-Swift */;
+			targetProxy = 84E0DB5A1B0C5E7D0075202B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84E0DB4D1B0C5E7D0075202B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E0DB4E1B0C5E7D0075202B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84E0DB521B0C5E7D0075202B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E0DB531B0C5E7D0075202B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84E0DB611B0C5E7D0075202B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84E0DB621B0C5E7D0075202B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84E0DB641B0C5E7D0075202B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JECaptureCamera-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84E0DB651B0C5E7D0075202B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JECaptureCamera-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84E0DB671B0C5E7D0075202B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JECaptureCamera-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JECaptureCamera-Swift.app/JECaptureCamera-Swift";
+			};
+			name = Debug;
+		};
+		84E0DB681B0C5E7D0075202B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JECaptureCamera-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JECaptureCamera-Swift.app/JECaptureCamera-Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84E0DB3F1B0C5E7C0075202B /* Build configuration list for PBXProject "JECaptureCamera-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E0DB611B0C5E7D0075202B /* Debug */,
+				84E0DB621B0C5E7D0075202B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E0DB631B0C5E7D0075202B /* Build configuration list for PBXNativeTarget "JECaptureCamera-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E0DB641B0C5E7D0075202B /* Debug */,
+				84E0DB651B0C5E7D0075202B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84E0DB661B0C5E7D0075202B /* Build configuration list for PBXNativeTarget "JECaptureCamera-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E0DB671B0C5E7D0075202B /* Debug */,
+				84E0DB681B0C5E7D0075202B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84E0DB3C1B0C5E7C0075202B /* Project object */;
+}
